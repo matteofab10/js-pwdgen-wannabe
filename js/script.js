@@ -7,9 +7,7 @@ console.log(lastName);
 console.log(favoriteColor);
 
 const textToShare = `
-  Nome: ${firstName}
-  Cognome: ${lastName}
-  Colore preferito: ${favoriteColor}
+  ${firstName}${lastName}${favoriteColor}21
 `;
 
 document.getElementById('utente').innerHTML = textToShare;
